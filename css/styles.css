@@ -156,11 +156,11 @@ h3 a:hover {
 #footer {
      position: fixed;
      bottom: 0px;
-     right: 20px;
+     right: 0px;
      width: 100%;
      overflow: visible;
      z-index: 99;
-     padding: 0px 10px;
+     padding: 0px 15px;
      background-color: #F16544;
      height: 40px;
 }
