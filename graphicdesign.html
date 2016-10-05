@@ -10,11 +10,14 @@
     <link href="css/lightbox.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.png">
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+
+	<div id="loader"></div>
+
 	<h1><a href="index.html">Sarah Dulat</a></h1>
 	<h2>Though I am not focusing on graphic design these days, I'm still considering offers in the field!</h2>
 
-	<div class="portfolio">
+	<div style="display:none;" id="myDiv" class="animate-bottom portfolio">
 		<a href="img/portfolio/facets.jpg" data-lightbox="portfolio" data-title="FACETS Magazine"><img src="img/portfolio/facets.jpg" /></a>
 		<a href="img/portfolio/86.jpg" data-lightbox="portfolio" data-title="Personal Piece"><img src="img/portfolio/86.jpg" /></a>
 		<a href="img/portfolio/amlaw.png" data-lightbox="portfolio" data-title="AMLaw Infographic"><img src="img/portfolio/amlaw.png" /></a>
@@ -34,6 +37,7 @@
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>
+    <script src="js/preloader.js"></script>
     <script src="js/lightbox.js"></script>
 </body>
 </html>
