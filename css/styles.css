@@ -9,6 +9,25 @@ body {
 	background-color: #F16544;
 	font-family: "Candara", Verdana, sans-serif;
 	padding: 0 15px 30px;
+	margin: 0;
+}
+
+.gradient {
+	animation-name: lsd;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes lsd {
+   0% {
+      background: #F16544;
+   }
+
+   100% {
+      background: #F93A7C;
+   }
 }
 
 .container {
@@ -28,7 +47,7 @@ h1 a {
 }
 
 h1 a:hover {
-	color: rgba(95,40,27,0.3);
+	color: rgba(255,255,255,0.7);
 }
 
 h2 {
@@ -99,7 +118,7 @@ h3 a:hover {
   margin: -75px 0 0 -75px;
   border: 10px solid rgba(255,255,255,0.9);
   border-radius: 50%;
-  border-top: 10px solid rgba(95,40,27,0.3);
+  border-top: 10px solid rgba(255,255,255,0.3);
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
@@ -154,15 +173,15 @@ h3 a:hover {
 
 
 #footer {
-     position: fixed;
-     bottom: 0px;
-     right: 0px;
-     width: 100%;
-     overflow: visible;
-     z-index: 99;
-     padding: 0px 15px;
-     background-color: #F16544;
-     height: 40px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    padding: 0px 15px;
+    background-color: #F16544;
+    height: 40px;
 }
 
 /*--MEDIA--*/
