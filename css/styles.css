@@ -12,15 +12,15 @@ body {
 	margin: 0;
 }
 
-.gradient {
-	animation-name: lsd;
+.sherbert {
+	animation-name: sherbert;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
-@keyframes lsd {
+@keyframes sherbert {
    0% {
       background: #F16544;
    }
